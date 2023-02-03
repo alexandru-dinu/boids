@@ -1,0 +1,21 @@
+fps: 60
+env_height: 600
+env_width: 700
+
+initial_boids: 5
+obstacle_radius: 20
+
+boid_size: 10
+boid_velocity: 3
+fov_angle: 360
+fov_radius: 50
+
+algorithm_cfgs:
+    boid_max_force: 0.4     # controls the maximum magnitude of the steering vector
+    obstacle_factor: 0.6    # controls how fast reacts to an obstacle
+    wall_factor: 3.0       # controls how fast reacts to a wall
+    align_factor: 2.0       # controls how fast reacts to alignment
+    cohesion_factor: 8.0    # controls how fast reacts to cohesion
+    separation_factor: 11.0 # controls how fast reacts to separation
+
+draw_fov: True
