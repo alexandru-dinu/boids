@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 """
 Reynolds' boids
 https://www.red3d.com/cwr/boids

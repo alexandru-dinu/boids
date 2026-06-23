@@ -1,10 +1,12 @@
 # Reynolds' boids
 
-<img src="./assets/example.png" width=400></img>
+<p align="center">
+<img src="./assets/example.png" width=600></img>
+</p>
 
 ## Usage
 ```
-$ ./boids.py --config configs/final.yaml
+$ uv run boids.py --config configs/final.yaml
 ```
 
 ## References

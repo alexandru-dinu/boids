@@ -1,0 +1,9 @@
+[project]
+name = "boids"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.0",
+    "pygame>=2.6.1",
+    "pyyaml>=6.0.3",
+]
